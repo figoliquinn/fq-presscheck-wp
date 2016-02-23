@@ -1,5 +1,8 @@
 <?php
 
+
+if(!class_exists('BFIGitHubPluginUpdater')){
+
 class BFIGitHubPluginUpdater {
  
     private $slug; // plugin slug
@@ -178,4 +181,7 @@ class BFIGitHubPluginUpdater {
 		 
 		return $result;
     }
+}
+
+
 }
