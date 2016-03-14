@@ -6,11 +6,15 @@
  *
  */
 
-require_once( 'BFIGitHubPluginUploader.php' );
+if (!class_exists('BFIGitHubPluginUpdater'))
+{
+	require_once( 'BFIGitHubPluginUploader.php' );
+}
+
 require_once( 'FQpresscheck.php' );
 
 if ( is_admin() ) {
-    new BFIGitHubPluginUpdater( __FILE__, 'figoliquinn', "fq-presscheck-wp" );
+    new BFIGitHubPluginUpdater( __FILE__, 'stevenquinn', "presscheck-wp" );
 }
 
 // Add our endpoint on install
