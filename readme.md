@@ -1,6 +1,6 @@
-Allow the Presscheck iOS application to check your Wordpress site for updates.
+## Allow the Presscheck iOS application to check your Wordpress site for updates.
 
-The Presscheck wordpress plugin is a companion app to the Presscheck iOS application. This plugin allows the application to check your site for updates using Administrator credentials for your Wordpress website.
+The Presscheck wordpress plugin is a companion app to the Presscheck iOS application. This plugin allows the application to check your site for updates using Administrator credentials for your Wordpress website. Download the iOS application at https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1073490547&mt=8.
 
 ## Installation
 
