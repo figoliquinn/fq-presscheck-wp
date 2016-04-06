@@ -27,10 +27,10 @@ register_activation_hook( __FILE__, 'install_fq_presscheck' );
 /**
 * Flush rewrite rules
 */
-function unistall_fq_presscheck() {
+function uninstall_fq_presscheck() {
     flush_rewrite_rules();
 }
-register_deactivation_hook( __FILE__, 'unistall_qintegrate' );
+register_deactivation_hook( __FILE__, 'uninstall_fq_presscheck' );
  
  // Add our new endpoint for checking for updates
  function fq_presscheck_endpoint()
