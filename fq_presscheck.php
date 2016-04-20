@@ -14,7 +14,7 @@ if (!class_exists('BFIGitHubPluginUpdater'))
 require_once( 'FQpresscheck.php' );
 
 if ( is_admin() ) {
-    new BFIGitHubPluginUpdater( __FILE__, 'stevenquinn', "presscheck-wp" );
+    new BFIGitHubPluginUpdater( __FILE__, 'figoliquinn', "presscheck-wp" );
 }
 
 // Add our endpoint on install
